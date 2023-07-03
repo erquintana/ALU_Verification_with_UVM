@@ -2,7 +2,7 @@
 
 Simple UVM Testbench, from Spec to Testbench (ALU Verification with UVM) based on https://www.youtube.com/watch?v=2026Ei1wGTU&amp;list=PLuYB6t6povcLRRoGxsDFai4TRWQMXCx5h
 
-![blocks diagram](spec/ALU%20Block%20Diagram.png)
+![blocks diagram](spec/ALU%20Block%20Diagram.jpg)
 
 ## Table of Contents
 
@@ -10,6 +10,7 @@ Simple UVM Testbench, from Spec to Testbench (ALU Verification with UVM) based o
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Pending](#pending)
 - [License](#license)
 
 ## Features
@@ -30,6 +31,11 @@ Simple UVM Testbench, from Spec to Testbench (ALU Verification with UVM) based o
 Contributions are welcome! Please follow these guidelines:
 - Explain how others can contribute to your project.
 - Provide information on the coding style, pull request process, etc.
+
+## Pending
+
+- List any upcoming features, tasks, or improvements that are planned for your project.
+- Include a brief description or explanation for each pending item.
 
 ## License
 
