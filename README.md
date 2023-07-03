@@ -31,8 +31,8 @@ Not required.
 
 ## Pending
 
-[Pending Item 1] Pending to implement monitor and scoreboard.
-[Pending Item 1] Implementation using env.sv as soon as monitor and scoreboard get implemented. This, to match image design (spec/ALU%20Block%20Diagram.jpg)
+- [ ] Pending to implement monitor and scoreboard.
+- [ ] Implementation using env.sv as soon as monitor and scoreboard get implemented. This, to match image design (spec/ALU%20Block%20Diagram.jpg)
 
 ## License
 
