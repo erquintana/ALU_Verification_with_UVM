@@ -1,7 +1,7 @@
 class alu_sum_seq extends uvm_sequence #(alu_seq_packet);
   `uvm_object_utils(alu_sum_seq);
 
-  // Packet to be sent to DUT (ALU) in the sequence:
+  // alu_sum_seq to be sent to DUT (ALU) in the sequence:
   alu_seq_packet alu_pkt;
   rand int pkt_qty = 15;  // qty packets to be sent during sim
 
@@ -50,7 +50,7 @@ class alu_sum_seq extends uvm_sequence #(alu_seq_packet);
 endclass
 
 class alu_sub_seq extends uvm_sequence #(alu_seq_packet);
-  `uvm_object_utils(alu_sum_seq);
+  `uvm_object_utils(alu_sub_seq);
 
   // Packet to be sent to DUT (ALU) in the sequence:
   alu_seq_packet alu_pkt;
@@ -101,7 +101,7 @@ class alu_sub_seq extends uvm_sequence #(alu_seq_packet);
 endclass
 
 class alu_mult_seq extends uvm_sequence #(alu_seq_packet);
-  `uvm_object_utils(alu_sum_seq);
+  `uvm_object_utils(alu_mult_seq);
 
   // Packet to be sent to DUT (ALU) in the sequence:
   alu_seq_packet alu_pkt;
@@ -152,7 +152,7 @@ class alu_mult_seq extends uvm_sequence #(alu_seq_packet);
 endclass
 
 class alu_div_seq extends uvm_sequence #(alu_seq_packet);
-  `uvm_object_utils(alu_sum_seq);
+  `uvm_object_utils(alu_div_seq);
 
   // Packet to be sent to DUT (ALU) in the sequence:
   alu_seq_packet alu_pkt;
