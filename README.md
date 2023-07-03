@@ -1,5 +1,4 @@
-markdown: kramdown
-# ALU_Verification_with_UVM
+# ALU Verification with UVM
 
 Simple UVM Testbench: ALU Verification with UVM, from Spec to Testbench . This is own implementation based on design and spec from https://www.youtube.com/watch?v=2026Ei1wGTU&amp;list=PLuYB6t6povcLRRoGxsDFai4TRWQMXCx5h.
 
