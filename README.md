@@ -1,6 +1,6 @@
 # ALU_Verification_with_UVM
 
-Simple UVM Testbench, from Spec to Testbench (ALU Verification with UVM) based on https://www.youtube.com/watch?v=2026Ei1wGTU&amp;list=PLuYB6t6povcLRRoGxsDFai4TRWQMXCx5h
+Simple UVM Testbench: ALU Verification with UVM - from Spec to Testbench -. This is own implementation based on design and spec from https://www.youtube.com/watch?v=2026Ei1wGTU&amp;list=PLuYB6t6povcLRRoGxsDFai4TRWQMXCx5h.
 
 ![blocks diagram](spec/ALU%20Block%20Diagram.jpg)
 
@@ -34,15 +34,15 @@ Contributions are welcome! Please follow these guidelines:
 
 ## Pending
 
-- List any upcoming features, tasks, or improvements that are planned for your project.
-- Include a brief description or explanation for each pending item.
+[Pending Item 1] Pending to implement monitor and scoreboard.
+[Pending Item 1] Implementation using env.sv as soon as monitor and scoreboard get implemented. This, to match image design (spec/ALU%20Block%20Diagram.jpg)
 
 ## License
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+                    Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+                    Everyone is permitted to copy and distribute verbatim copies
+                    of this license document, but changing it is not allowed.
 
