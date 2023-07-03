@@ -21,12 +21,6 @@ class driver extends uvm_driver #(alu_seq_packet);
                 `uvm_fatal(get_name(), " can't get desired virtual interface");
             end
         `uvm_info(this.get_name(),"build_phase finished", UVM_NONE);
-    
-     	// Initializing  
-     	ALU_vif.cb.a <= 0;    // initialicing variables
-        ALU_vif.cb.b <= 0;    // initialicing variables
-      	ALU_vif.cb.ALU_sel <= 4'b0000;
-      	ALU_vif.cb.reset <= 1;
     endfunction
 
 
@@ -46,8 +40,8 @@ class driver extends uvm_driver #(alu_seq_packet);
     `uvm_info(this.get_name(),"sequence_hadler Task begin", UVM_NONE);
     	@(ALU_vif.cb);
         pkt.print();
-    	ALU_vif.cb.reset <= pkt.rst;
-    	ALU_vif.cb.a <= pkt.a;
+    	  ALU_vif.cb.reset <= pkt.rst;
+    	  ALU_vif.cb.a <= pkt.a;
         ALU_vif.cb.b <= pkt.b;
     `uvm_info(this.get_name(),"sequence_hadler Task finished", UVM_NONE);
     endtask
