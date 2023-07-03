@@ -1,3 +1,4 @@
+markdown: kramdown
 # ALU_Verification_with_UVM
 
 Simple UVM Testbench: ALU Verification with UVM, from Spec to Testbench . This is own implementation based on design and spec from https://www.youtube.com/watch?v=2026Ei1wGTU&amp;list=PLuYB6t6povcLRRoGxsDFai4TRWQMXCx5h.
@@ -22,7 +23,7 @@ Simple UVM Testbench: ALU Verification with UVM, from Spec to Testbench . This i
 Not required.
 
 ## Usage
-EDA playground project available [here](https://www.edaplayground.com/x/KWCi)
+EDA playground project available [here](https://www.edaplayground.com/x/KWCi){:target="_blank" rel="noopener"}
 
 
     1. Please, go to EDA playground project.
