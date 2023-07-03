@@ -22,10 +22,10 @@ class test extends uvm_test;
         drv = driver::type_id::create("drv", this);
         seqr = sequencer::type_id::create("seqr", this);
         // test sequences:
-        sum_test_seq = alu_sum_seq::type_id::create("sum_test_seq", this);
-        sub_test_seq = alu_sum_seq::type_id::create("sub_test_seq", this);
-        mult_test_seq = alu_sum_seq::type_id::create("mult_test_seq", this);
-        div_test_seq = alu_sum_seq::type_id::create("div_test_seq", this);
+        sum_test_seq = sum_test_seq::type_id::create("sum_test_seq", this);
+        sub_test_seq = sub_test_seq::type_id::create("sub_test_seq", this);
+        mult_test_seq = mult_test_seq::type_id::create("mult_test_seq", this);
+        div_test_seq = div_test_seq::type_id::create("div_test_seq", this);
     endfunction
 
     function void connect_phase(uvm_phase phase);
