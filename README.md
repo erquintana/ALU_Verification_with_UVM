@@ -23,7 +23,7 @@ Simple UVM Testbench: ALU Verification with UVM, from Spec to Testbench . This i
 Not required.
 
 ## Usage
-EDA playground project available [here](https://www.edaplayground.com/x/KWCi){:target="_blank" rel="noopener"}
+EDA playground project available [here](https://www.edaplayground.com/x/KWCi)
 
 
     1. Please, go to EDA playground project.
