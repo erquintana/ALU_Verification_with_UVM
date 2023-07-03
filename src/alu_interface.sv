@@ -11,7 +11,7 @@ clocking cb @(posedge clock)
     inout reset;
     inout a;
     inout b;
-    inout ALU_sell
+    inout ALU_sel;
     input ALU_out;
     inout carry_out;
 
