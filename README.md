@@ -23,7 +23,7 @@ Not required.
 
 ## Usage
 EDA playground project available <a href="https://www.edaplayground.com/x/KWCi" target="_blank" rel="noopener noreferrer">Link to Example</a>
-
+[Link to Example](https://www.edaplayground.com/x/KWCi){:target="_blank" rel="noopener"}
     1. Please, go to EDA playground project.
     2. Use the play button.
 
