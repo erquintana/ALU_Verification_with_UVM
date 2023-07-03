@@ -22,7 +22,7 @@ Simple UVM Testbench: ALU Verification with UVM, from Spec to Testbench . This i
 Not required.
 
 ## Usage
-    1. Please, go to EDA playground project: https://www.edaplayground.com/x/KWCi.
+    1. Please, go to EDA playground project: [link](https://www.edaplayground.com/x/KWCi).
     2. Use the play button.
 
 ## Contributing
@@ -31,8 +31,8 @@ Not required.
 
 ## Pending
 
-- [ ] Pending to implement monitor and scoreboard.
-- [ ] Implementation using env.sv as soon as monitor and scoreboard get implemented. This, to match image design (spec/ALU%20Block%20Diagram.jpg)
+- [ ] Pending to implement monitor and scoreboard. By now implementation not match img.
+- [ ] Implementation using env.sv as soon as monitor and scoreboard get implemented. This, to match image design: [diagram](spec/ALU%20Block%20Diagram.jpg)
 
 ## License
 
