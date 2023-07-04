@@ -16,7 +16,7 @@ class alu_seq_packet extends uvm_sequence_item;
     // class constructor:
     function new(string name = "alu_seq_packet");
         super.new(name);
-        `uvm_info(this.get_name(),"Object created", UVM_NONE);
+        `uvm_info(this.get_name(),"alu_seq_packet object created", UVM_MEDIUM);
     endfunction
 
 endclass

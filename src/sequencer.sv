@@ -4,6 +4,6 @@ class sequencer extends uvm_sequencer #(alu_seq_packet);
     // Class constructor:
     function new(string name = "sequencer", uvm_component parent = null);
         super.new(name, parent);
-        `uvm_info(this.get_name(),"Instance created", UVM_NONE);
+        `uvm_info(this.get_name(),"sequencer instance created", UVM_MEDIUM);
     endfunction
 endclass
