@@ -11,6 +11,8 @@ class test extends uvm_test;
     alu_sub_seq sub_test_seq;
     alu_mult_seq mult_test_seq;
     alu_div_seq div_test_seq;
+    alu_random_seq random_test_seq;
+
 
     // class constructor:
   function new(string name = "test", uvm_component parent = null);
@@ -28,6 +30,7 @@ class test extends uvm_test;
         sub_test_seq = alu_sub_seq::type_id::create("sub_test_seq", this);
         mult_test_seq = alu_mult_seq::type_id::create("mult_test_seq", this);
         div_test_seq = alu_div_seq::type_id::create("div_test_seq", this);
+        random_test_seq = alu_random_seq::type_id::create("random_test_seq", this);
     	`uvm_info(this.get_name(), "build_phase task finished", UVM_MEDIUM);
     endfunction
 
@@ -50,6 +53,8 @@ class test extends uvm_test;
         mult_test_seq.start(seqr);
     	`uvm_info(this.get_name(), "div_test_seq task IP", UVM_MEDIUM);
         div_test_seq.start(seqr);
+        `uvm_info(this.get_name(), "random_test_seq task IP", UVM_MEDIUM);
+        random_test_seq.start(seqr);
         phase.drop_objection(this, "finished *_test_seq");
     endtask
 endclass
