@@ -1,7 +1,3 @@
-`include "driver.sv"
-`include "sequencer.sv"
-`include "alu_feature_tests.sv"
- 
 class test extends uvm_test;
   `uvm_component_utils(test);
 

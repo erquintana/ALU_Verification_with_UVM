@@ -1,7 +1,5 @@
-`include "alu_seq_packet.sv"
-
 class driver extends uvm_driver #(alu_seq_packet);
-  `uvm_component_utils(driver);
+    `uvm_component_utils(driver);
 
     alu_seq_packet alu_driver_pkt;
     virtual alu_interface.mp_if ALU_vif;

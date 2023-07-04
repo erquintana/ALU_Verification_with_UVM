@@ -1,9 +1,13 @@
-`include "uvm_macros.svh"
+import uvm_pkg::*;
 `include "alu_interface.sv"
+`include "alu_seq_packet.sv"
+`include "sequencer.sv"
+`include "driver.sv"
+`include "uvm_macros.svh"
+`include "alu_feature_tests.sv"
 `include "test.sv"
 
 module top_tb();
-    import uvm_pkg::*;
     //===============================================
     // Instantiation:
     //===============================================
