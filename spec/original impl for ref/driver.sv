@@ -1,4 +1,3 @@
-
 class alu_driver extends uvm_driver#(alu_sequence_item);
   `uvm_component_utils(alu_driver)
   
