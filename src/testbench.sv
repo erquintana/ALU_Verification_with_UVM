@@ -35,7 +35,7 @@ module top_tb();
     //===============================================    
     initial begin;
         uvm_config_db #(virtual alu_interface.mp_if)::set(null, "*", "ALU_vif", alu_if);
-      run_test("test");
+      	run_test("test");
     end
     
 
@@ -44,7 +44,7 @@ module top_tb();
     //===============================================
     initial begin
         $dumpfile("dump.vcd");
-      $dumpvars(0,top_tb);
+      	$dumpvars(0,top_tb);
     end
 endmodule
 

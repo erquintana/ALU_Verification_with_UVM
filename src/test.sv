@@ -37,7 +37,7 @@ class test extends uvm_test;
       if(! uvm_config_db #(virtual alu_interface.mp_if)::get(this, "", "ALU_vif",drv.ALU_vif)) begin
             `uvm_error("connect", "ALU_vif not found");
         end
-    	`uvm_info(this.get_name(), "connect_phase task started", UVM_MEDIUM);
+    	`uvm_info(this.get_name(), "connect_phase task finished", UVM_MEDIUM);
     endfunction
 
     task run_phase(uvm_phase phase);

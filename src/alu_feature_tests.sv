@@ -38,8 +38,8 @@ class alu_sum_seq extends uvm_sequence #(alu_seq_packet);
 	  alu_pkt.a   = $urandom();
 	  alu_pkt.b   = $urandom_range(0, alu_pkt.a);
 	  finish_item(alu_pkt);
-	  alu_pkt.print();
 	end
+	alu_pkt.print();
 	`uvm_info(this.get_name(), "body task finished", UVM_MEDIUM);
   endtask
 
@@ -90,8 +90,8 @@ class alu_sub_seq extends uvm_sequence #(alu_seq_packet);
 	  alu_pkt.a   = $urandom();
 	  alu_pkt.b   = $urandom_range(0, alu_pkt.a);
 	  finish_item(alu_pkt);
-	  alu_pkt.print();
 	end
+	alu_pkt.print();
 	`uvm_info(this.get_name(), "body task finished", UVM_MEDIUM);
   endtask
 
@@ -141,8 +141,8 @@ class alu_mult_seq extends uvm_sequence #(alu_seq_packet);
 	  alu_pkt.a   = $urandom();
 	  alu_pkt.b   = $urandom_range(0, alu_pkt.a);
 	  finish_item(alu_pkt);
-	  alu_pkt.print();
 	end
+	alu_pkt.print();
 	`uvm_info(this.get_name(), "body task finished", UVM_MEDIUM);
   endtask
 
@@ -187,13 +187,13 @@ class alu_div_seq extends uvm_sequence #(alu_seq_packet);
 	alu_pkt.rst = 0;
 	for (int i = 0; i < pkt_qty; ++i) begin
 	  start_item(alu_pkt);
-	  `uvm_info("", $sformatf("Random pkt #%d started and finished", i), UVM_MEDIUM);
+	  `uvm_info("", $sformatf("Random pkt #%d:", i), UVM_MEDIUM);
 	  alu_pkt.rst = $urandom();
 	  alu_pkt.a   = $urandom();
 	  alu_pkt.b   = $urandom_range(0, alu_pkt.a);
 	  finish_item(alu_pkt);
-	  alu_pkt.print();
 	end
+	alu_pkt.print();
 	`uvm_info(this.get_name(), "body task finished", UVM_MEDIUM);
   endtask
 

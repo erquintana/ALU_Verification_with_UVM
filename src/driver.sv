@@ -39,7 +39,6 @@ class driver extends uvm_driver #(alu_seq_packet);
   virtual task sequence_hadler(alu_seq_packet pkt);
     `uvm_info(this.get_name(),"sequence_hadler task started", UVM_MEDIUM);
     	@(ALU_vif.cb);
-        pkt.print();
         ALU_vif.cb.ALU_sel <= pkt.alu_sel;
     	  ALU_vif.cb.reset <= pkt.rst;
     	  ALU_vif.cb.a <= pkt.a;
